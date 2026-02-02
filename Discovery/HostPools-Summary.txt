@@ -1,0 +1,10 @@
+
+Name               ResourceGroup HostPoolType LoadBalancerType MaxSessionLimit PreferredAppGroupType FriendlyName
+----               ------------- ------------ ---------------- --------------- --------------------- ------------
+Development        RG_US_AVDPOOL Personal     Persistent                999999 Desktop               Development
+GeneralPurpose     RG_US_AVDPOOL Pooled       DepthFirst                    15 Desktop               Standard AVD v.0.1
+GPUACC             RG_US_AVDPOOL Pooled       BreadthFirst                   1 Desktop               Studio Architects …
+InfrastructureTeam RG_US_AVDPOOL Pooled       DepthFirst                    10 RailApplications      IT and Remote Apps
+MarketingPoolBus   RG_US_AVDPOOL Pooled       DepthFirst                    10 Desktop               Marketing AVD v.0.1
+RemoteApps         RG_US_AVDPOOL Pooled       DepthFirst                    20 RailApplications      RemoteApps
+

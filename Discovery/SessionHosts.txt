@@ -1,0 +1,626 @@
+=== Development (RG: RG_US_AVDPOOL) ===
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : brett.fabrikant@ennead.com
+FriendlyName                 : 
+HealthCheckResult            : {{
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: is joined to domain ≤ad.ennead.com≥",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-02-02T03:40:58.9713838Z"
+                                 },
+                                 "healthCheckName": "DomainJoinedCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: domain trust check succeeded for domain ≤ad.ennead.com≥",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-02-02T03:41:17.8229171Z"
+                                 },
+                                 "healthCheckName": "DomainTrustCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: SessionHost healthy: SxS stack listener is ready",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-02-02T03:41:04.3312902Z"
+                                 },
+                                 "healthCheckName": "SxSStackListenerCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "{\"AccessibleUrls\":[\"c8d6ec57-1559-49e9-9e18-9e271bfd30e5.rdbroker-g-us-r1.wvd.microsoft.com\",\"c8d6ec57-1559-49e9-9e18-9e271bfd30e5.rdbroker.wvd.microsoft.com\",\"c8d6ec57-1559-49e9-9e18-9e271bfd30e5.rddiagnostics-g-us-r1.wvd.microsoft.com\",\"mrsglobalsteus2prod.blob.core.windows.net\",\"gcs.prod.monitoring.core.windows.net\",\"eastus-shared.prod.warm.ingest.monitor.core.windows.net\",\"eastus-qos.prod.warm.ingest.monitor.core.windows.net\"],\"NotAccessibleUrls\":null,\"Context\":null}",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-02-02T03:41:10.0713959Z"
+                                 },
+                                 "healthCheckName": "UrlsAccessibleCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }…}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/Development/sessionhosts/DeploytestDEV.ad.ennead.com
+LastHeartBeat                : 2/2/2026 10:44:43 AM
+LastUpdateTime               : 1/19/2026 1:16:21 PM
+Name                         : Development/DeploytestDEV.ad.ennead.com
+OSVersion                    : 10.0.22631.6345
+ObjectId                     : a8602a6b-9427-4243-81c4-d2dd799c1f19
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/DeploytestDEV
+Session                      : 1
+Status                       : Available
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 1/18/2025 5:31:02 AM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:24:27 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : 177cd0a5-04ae-4e71-a578-9885be507b72
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : scott.eno@ennead.com
+FriendlyName                 : 
+HealthCheckResult            : {{
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: is joined to domain ≤ad.ennead.com≥",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-02-02T17:29:08.0490676Z"
+                                 },
+                                 "healthCheckName": "DomainJoinedCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: domain trust check succeeded for domain ≤ad.ennead.com≥",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-02-02T17:29:09.8630930Z"
+                                 },
+                                 "healthCheckName": "DomainTrustCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: SessionHost healthy: SxS stack listener is ready",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-02-02T17:29:18.7637827Z"
+                                 },
+                                 "healthCheckName": "SxSStackListenerCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "{\"AccessibleUrls\":[\"c8d6ec57-1559-49e9-9e18-9e271bfd30e5.rdbroker-g-us-r1.wvd.microsoft.com\",\"c8d6ec57-1559-49e9-9e18-9e271bfd30e5.rdbroker.wvd.microsoft.com\",\"c8d6ec57-1559-49e9-9e18-9e271bfd30e5.rddiagnostics-g-us-r1.wvd.microsoft.com\",\"rdgateway-host-blue-c226-eus-r1.wvd.microsoft.com\",\"mrsglobalsteus2prod.blob.core.windows.net\",\"gcs.prod.monitoring.core.windows.net\",\"eastus-shared.prod.warm.ingest.monitor.core.windows.net\",\"eastus-qos.prod.warm.ingest.monitor.core.windows.net\"],\"NotAccessibleUrls\":null,\"Context\":null}",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-02-02T17:29:12.2004826Z"
+                                 },
+                                 "healthCheckName": "UrlsAccessibleCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }…}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/Development/sessionhosts/DEVAVD-03.ad.ennead.com
+LastHeartBeat                : 2/2/2026 6:02:39 PM
+LastUpdateTime               : 1/19/2026 1:14:24 PM
+Name                         : Development/DEVAVD-03.ad.ennead.com
+OSVersion                    : 10.0.26200.7623
+ObjectId                     : c0816998-f812-4e52-b9ee-b2cedcd59a62
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/DEVAVD-03
+Session                      : 1
+Status                       : Available
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 1/14/2026 12:09:21 AM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:23:56 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : 109941ad-e3cd-4a6c-ad8d-4a9754411851
+
+
+=== GeneralPurpose (RG: RG_US_AVDPOOL) ===
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GeneralPurpose/sessionhosts/GENAVD-03.ad.ennead.com
+LastHeartBeat                : 2/1/2026 5:43:35 AM
+LastUpdateTime               : 1/10/2026 12:54:06 AM
+Name                         : GeneralPurpose/GENAVD-03.ad.ennead.com
+OSVersion                    : 10.0.26100.7462
+ObjectId                     : 5f720b2a-0815-4d12-8305-551607eede20
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/GENAVD-03
+Session                      : 0
+Status                       : Shutdown
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 1/9/2026 6:23:05 PM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:44:07 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : 57579e68-5f55-4782-9071-d8ea6cf22e94
+
+
+=== GPUACC (RG: RG_US_AVDPOOL) ===
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GPUACC/sessionhosts/GPUPD-041.ad.ennead.com
+LastHeartBeat                : 2/1/2026 2:51:49 PM
+LastUpdateTime               : 1/18/2026 1:10:22 PM
+Name                         : GPUACC/GPUPD-041.ad.ennead.com
+OSVersion                    : 10.0.22631.6345
+ObjectId                     : 93dd8920-fdb6-4a30-a5a0-e5a05ce5fc83
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/GPUPD-041
+Session                      : 0
+Status                       : Shutdown
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 10/31/2025 2:11:41 PM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:17:55 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : 420faa20-2788-4596-b09d-cdbc4c8af535
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GPUACC/sessionhosts/GPUPD-042.ad.ennead.com
+LastHeartBeat                : 2/1/2026 2:51:49 PM
+LastUpdateTime               : 1/18/2026 1:09:12 PM
+Name                         : GPUACC/GPUPD-042.ad.ennead.com
+OSVersion                    : 10.0.22631.6345
+ObjectId                     : e1fc362f-7937-4de8-9b17-4d099f09c0cc
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/GPUPD-042
+Session                      : 0
+Status                       : Shutdown
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 10/31/2025 2:12:33 PM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:18:25 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : c2b32ee8-9bc4-402d-8212-4166c416f8cc
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GPUACC/sessionhosts/GPUPD-043.ad.ennead.com
+LastHeartBeat                : 2/1/2026 2:51:49 PM
+LastUpdateTime               : 1/18/2026 1:11:47 PM
+Name                         : GPUACC/GPUPD-043.ad.ennead.com
+OSVersion                    : 10.0.22631.4037
+ObjectId                     : 9c06cee8-de61-4e3a-ae44-2cd58055fe18
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/GPUPD-043
+Session                      : 0
+Status                       : Shutdown
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 10/31/2025 2:12:55 PM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:17:56 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : f515ed99-4200-4a2c-b0b1-595eac0ccc8b
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GPUACC/sessionhosts/GPUPD-048.ad.ennead.com
+LastHeartBeat                : 2/1/2026 2:51:54 PM
+LastUpdateTime               : 1/18/2026 1:22:02 PM
+Name                         : GPUACC/GPUPD-048.ad.ennead.com
+OSVersion                    : 10.0.22631.6345
+ObjectId                     : 713218da-4535-451e-9d3e-c969e7af7433
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/GPUPD-048
+Session                      : 0
+Status                       : Shutdown
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 10/3/2025 1:36:59 AM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:18:57 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : 7d34724d-1a58-4d66-a85a-81a82364a4c1
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GPUACC/sessionhosts/GPUPD-049.ad.ennead.com
+LastHeartBeat                : 2/1/2026 2:51:49 PM
+LastUpdateTime               : 1/18/2026 1:17:55 PM
+Name                         : GPUACC/GPUPD-049.ad.ennead.com
+OSVersion                    : 10.0.22631.6345
+ObjectId                     : 2fc0110e-5918-4e4f-b932-6eafb3089138
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/GPUPD-049
+Session                      : 0
+Status                       : Shutdown
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 10/3/2025 1:38:23 AM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:18:55 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : 0bbcf84f-7461-4b24-b418-24d7c474360a
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GPUACC/sessionhosts/GPUPD-053.ad.ennead.com
+LastHeartBeat                : 2/1/2026 2:51:49 PM
+LastUpdateTime               : 1/18/2026 1:17:57 PM
+Name                         : GPUACC/GPUPD-053.ad.ennead.com
+OSVersion                    : 10.0.22631.6345
+ObjectId                     : 14f8aa82-289c-4d8a-9abd-f247c707c279
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/GPUPD-053
+Session                      : 0
+Status                       : Shutdown
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 10/3/2025 1:38:30 AM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:18:56 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : ce8849a1-c39c-4b4d-9afc-ec95e8cbce51
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {{
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: is joined to domain ≤ad.ennead.com≥",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-01-30T13:56:43.1473867Z"
+                                 },
+                                 "healthCheckName": "DomainJoinedCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: domain trust check succeeded for domain ≤ad.ennead.com≥",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-01-30T13:57:33.7049412Z"
+                                 },
+                                 "healthCheckName": "DomainTrustCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: SessionHost healthy: SxS stack listener is ready",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-01-30T13:57:23.4058465Z"
+                                 },
+                                 "healthCheckName": "SxSStackListenerCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "{\"AccessibleUrls\":[\"faacd3b4-5e32-4341-b05a-63896fabf17f.rdbroker-g-us-r1.wvd.microsoft.com\",\"faacd3b4-5e32-4341-b05a-63896fabf17f.rdbroker.wvd.microsoft.com\",\"faacd3b4-5e32-4341-b05a-63896fabf17f.rddiagnostics-g-us-r1.wvd.microsoft.com\",\"mrsglobalsteus2prod.blob.core.windows.net\",\"gcs.prod.monitoring.core.windows.net\",\"eastus-shared.prod.warm.ingest.monitor.core.windows.net\",\"eastus-qos.prod.warm.ingest.monitor.core.windows.net\"],\"NotAccessibleUrls\":null,\"Context\":null}",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-01-30T13:57:31.4936245Z"
+                                 },
+                                 "healthCheckName": "UrlsAccessibleCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }…}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GPUACC/sessionhosts/GPUPD-057.ad.ennead.com
+LastHeartBeat                : 1/30/2026 12:16:38 PM
+LastUpdateTime               : 1/18/2026 1:21:55 PM
+Name                         : GPUACC/GPUPD-057.ad.ennead.com
+OSVersion                    : 10.0.22631.6345
+ObjectId                     : 8bc18498-849c-4ccf-9c7d-ecded264001e
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/GPUPD-057
+Session                      : 0
+Status                       : Available
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 10/3/2025 1:38:18 AM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:11:53 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : 065cead0-a50f-4b9c-998e-af11374d63be
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GPUACC/sessionhosts/GPUPD-079.ad.ennead.com
+LastHeartBeat                : 2/1/2026 2:51:54 PM
+LastUpdateTime               : 1/18/2026 1:11:49 PM
+Name                         : GPUACC/GPUPD-079.ad.ennead.com
+OSVersion                    : 10.0.22631.6345
+ObjectId                     : f597fdc9-41f0-4d17-8568-9b97d3c769ee
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/GPUPD-079
+Session                      : 0
+Status                       : Shutdown
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 8/27/2025 6:50:42 PM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:18:25 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : d0ed22f4-c0ee-42b5-89c4-7d1ab4798762
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GPUACC/sessionhosts/GPUPD-083.ad.ennead.com
+LastHeartBeat                : 2/1/2026 2:51:55 PM
+LastUpdateTime               : 1/18/2026 1:21:32 PM
+Name                         : GPUACC/GPUPD-083.ad.ennead.com
+OSVersion                    : 10.0.22631.6345
+ObjectId                     : 7126e51b-d195-4108-90b3-73bbc554a9e9
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/GPUPD-083
+Session                      : 0
+Status                       : Shutdown
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 8/27/2025 6:55:37 PM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:33:04 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : deb336fa-0d4a-4a78-ab89-ad502eadfa66
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GPUACC/sessionhosts/GPUPD-087.ad.ennead.com
+LastHeartBeat                : 2/1/2026 2:51:54 PM
+LastUpdateTime               : 1/18/2026 1:16:22 PM
+Name                         : GPUACC/GPUPD-087.ad.ennead.com
+OSVersion                    : 10.0.22631.6345
+ObjectId                     : ffd5a1ca-e01b-4c02-aefe-0b78046c223f
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/GPUPD-087
+Session                      : 0
+Status                       : Shutdown
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 8/27/2025 6:49:43 PM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:33:04 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : 7fc25af5-32e7-4e1d-9806-943fbd16c9e0
+
+
+=== InfrastructureTeam (RG: RG_US_AVDPOOL) ===
+
+AgentVersion                 : 1.0.13229.200
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {{
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: is joined to domain ≤ad.ennead.com≥",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-01-28T00:43:07.8479328Z"
+                                 },
+                                 "healthCheckName": "DomainJoinedCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: domain trust check succeeded for domain ≤ad.ennead.com≥",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-01-28T00:43:41.6226163Z"
+                                 },
+                                 "healthCheckName": "DomainTrustCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: SessionHost healthy: SxS stack listener is ready",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-01-28T00:43:20.6224508Z"
+                                 },
+                                 "healthCheckName": "SxSStackListenerCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "{\"AccessibleUrls\":[\"66d980d0-66a1-4d27-8de0-51509e0d489f.rdbroker-g-us-r0.wvd.microsoft.com\",\"66d980d0-66a1-4d27-8de0-51509e0d489f.rdbroker.wvd.microsoft.com\",\"66d980d0-66a1-4d27-8de0-51509e0d489f.rddiagnostics-g-us-r0.wvd.microsoft.com\",\"rdgateway-host-green-c220-eus-r0.wvd.microsoft.com\",\"mrsglobalsteus2prod.blob.core.windows.net\",\"gcs.prod.monitoring.core.windows.net\",\"eastus-shared.prod.warm.ingest.monitor.core.windows.net\",\"eastus-qos.prod.warm.ingest.monitor.core.windows.net\"],\"NotAccessibleUrls\":null,\"Context\":null}",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-01-28T00:43:26.5882585Z"
+                                 },
+                                 "healthCheckName": "UrlsAccessibleCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }…}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/InfrastructureTeam/sessionhosts/ITAVD.ad.ennead.com
+LastHeartBeat                : 1/30/2026 1:50:22 PM
+LastUpdateTime               : 1/26/2026 9:42:50 PM
+Name                         : InfrastructureTeam/ITAVD.ad.ennead.com
+OSVersion                    : 10.0.22631.6491
+ObjectId                     : 463bd4e7-57c8-484c-852c-36704f191157
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/ITAVD
+Session                      : 0
+Status                       : Available
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs251112400
+SystemDataCreatedAt          : 9/27/2024 11:45:09 PM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:29:33 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : b75c9de4-c927-40bd-9c64-2fc946274a36
+
+
+=== MarketingPoolBus (RG: RG_US_AVDPOOL) ===
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {{
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: is joined to domain ≤ad.ennead.com≥",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-01-31T03:37:55.0492005Z"
+                                 },
+                                 "healthCheckName": "DomainJoinedCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: domain trust check succeeded for domain ≤ad.ennead.com≥",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-01-31T03:38:50.6258073Z"
+                                 },
+                                 "healthCheckName": "DomainTrustCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "SessionHost healthy: SessionHost healthy: SxS stack listener is ready",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-01-31T03:38:31.2942283Z"
+                                 },
+                                 "healthCheckName": "SxSStackListenerCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }, {
+                                 "additionalFailureDetails": {
+                                   "message": "{\"AccessibleUrls\":[\"c6c85a97-ec2f-4528-8c05-37c935862226.rdbroker-g-us-r1.wvd.microsoft.com\",\"c6c85a97-ec2f-4528-8c05-37c935862226.rdbroker.wvd.microsoft.com\",\"c6c85a97-ec2f-4528-8c05-37c935862226.rddiagnostics-g-us-r1.wvd.microsoft.com\",\"rdgateway-host-green-c221-eus-r1.wvd.microsoft.com\",\"mrsglobalsteus2prod.blob.core.windows.net\",\"gcs.prod.monitoring.core.windows.net\",\"eastus-shared.prod.warm.ingest.monitor.core.windows.net\",\"eastus-qos.prod.warm.ingest.monitor.core.windows.net\"],\"NotAccessibleUrls\":null,\"Context\":null}",
+                                   "errorCode": 0,
+                                   "lastHealthCheckDateTime": "2026-01-31T03:38:33.5100385Z"
+                                 },
+                                 "healthCheckName": "UrlsAccessibleCheck",
+                                 "healthCheckResult": "HealthCheckSucceeded"
+                               }…}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/MarketingPoolBus/sessionhosts/Marketing-01.ad.ennead.com
+LastHeartBeat                : 1/31/2026 2:17:24 AM
+LastUpdateTime               : 1/18/2026 1:16:01 PM
+Name                         : MarketingPoolBus/Marketing-01.ad.ennead.com
+OSVersion                    : 10.0.26100.2033
+ObjectId                     : 8d061416-cfac-4ff8-a6e0-4bc20cc90497
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/Marketing-01
+Session                      : 0
+Status                       : Available
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 11/7/2024 7:56:00 PM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:29:03 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : 3f30b71c-46a5-49f2-971c-404ed3163286
+
+
+=== RemoteApps (RG: RG_US_AVDPOOL) ===
+
+AgentVersion                 : 1.0.12684.400
+AllowNewSession              : True
+AssignedUser                 : 
+FriendlyName                 : 
+HealthCheckResult            : {}
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/RemoteApps/sessionhosts/RAAVD--01.ad.ennead.com
+LastHeartBeat                : 2/1/2026 5:41:02 AM
+LastUpdateTime               : 1/17/2026 1:22:14 AM
+Name                         : RemoteApps/RAAVD--01.ad.ennead.com
+OSVersion                    : 10.0.26100.7623
+ObjectId                     : deccb68a-c3d6-447b-9fdd-040b2042e51a
+ResourceGroupName            : RG_US_AVDPOOL
+ResourceId                   : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/virtualMachines/RAAVD--01
+Session                      : 0
+Status                       : Shutdown
+StatusTimestamp              : 
+SxSStackVersion              : rdp-sxs250725770
+SystemDataCreatedAt          : 1/15/2026 7:58:05 PM
+SystemDataCreatedBy          : 
+SystemDataCreatedByType      : 
+SystemDataLastModifiedAt     : 2/1/2026 5:41:36 AM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Type                         : Microsoft.DesktopVirtualization/hostpools/sessionhosts
+UpdateErrorMessage           : 
+UpdateState                  : Succeeded
+VirtualMachineId             : 8728ebaa-440e-4bec-84e5-0a461c3babc7
+
+

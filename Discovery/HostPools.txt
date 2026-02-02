@@ -1,0 +1,383 @@
+
+AgentUpdateMaintenanceWindow               : {{
+                                               "hour": 8,
+                                               "dayOfWeek": "Monday"
+                                             }}
+AgentUpdateMaintenanceWindowTimeZone       : Eastern Standard Time
+AgentUpdateType                            : Scheduled
+AgentUpdateUseSessionHostLocalTime         : False
+AppAttachPackageReference                  : {}
+ApplicationGroupReference                  : {/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/Development-AppGroup}
+CloudPcResource                            : False
+CustomRdpProperty                          : drivestoredirect:s:;audiomode:i:0;videoplaybackmode:i:1;redirectclipboard:i:1;redirectprinters:i:1;devicestoredirect:s:*;redirectcomports:i:1;redirectsmartcards:i:1;usbdevicestoredirect:s:;enablecredsspsupport:i:1;redirectwebauthn:i:1;use multimon:i:1;desktopscalefactor:i:125;enablerdsaadauth:i:1;autoreconnection enabled:i:1;bandwidthautodetect:i:1;networkautodetect:i:1;audiocapturemode:i:1;encode redirected video capture:i:1;redirected video capture encoding quality:i:1;camerastoredirect:s:*;dynamic resolution:i:1;
+Description                                : Development
+Etag                                       : 
+FriendlyName                               : Development
+HostPoolType                               : Personal
+Id                                         : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/Development
+IdentityPrincipalId                        : 
+IdentityTenantId                           : 
+IdentityType                               : 
+Kind                                       : 
+LoadBalancerType                           : Persistent
+Location                                   : eastus
+ManagedBy                                  : 
+MaxSessionLimit                            : 999999
+Name                                       : Development
+ObjectId                                   : c8d6ec57-1559-49e9-9e18-9e271bfd30e5
+PersonalDesktopAssignmentType              : Automatic
+PlanName                                   : 
+PlanProduct                                : 
+PlanPromotionCode                          : 
+PlanPublisher                              : 
+PlanVersion                                : 
+PreferredAppGroupType                      : Desktop
+PrivateEndpointConnection                  : {}
+PublicNetworkAccess                        : Enabled
+RegistrationInfoExpirationTime             : 
+RegistrationInfoRegistrationTokenOperation : 
+RegistrationInfoToken                      : 
+ResourceGroupName                          : RG_US_AVDPOOL
+Ring                                       : 1
+SkuCapacity                                : 
+SkuFamily                                  : 
+SkuName                                    : 
+SkuSize                                    : 
+SkuTier                                    : 
+SsoClientId                                : 
+SsoClientSecretKeyVaultPath                : 
+SsoSecretType                              : 
+SsoadfsAuthority                           : 
+StartVMOnConnect                           : True
+SystemDataCreatedAt                        : 12/11/2024 7:09:04 PM
+SystemDataCreatedBy                        : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType                    : Application
+SystemDataLastModifiedAt                   : 1/27/2026 11:44:50 PM
+SystemDataLastModifiedBy                   : adm_scott@ennead.com
+SystemDataLastModifiedByType               : User
+Tag                                        : {
+                                               "Owner": "Ameer Abdur-Razzaaq",
+                                               "Product": "Internal IT",
+                                               "NMW_MONITORING_WORKSPACE_ID": "6881dcf5-a226-446e-a97b-7295cc0d0fb8/rg_us_nme/nmw-app-law-a2spbcm4zyvis"
+                                             }
+Type                                       : Microsoft.DesktopVirtualization/hostpools
+VMTemplate                                 : 
+ValidationEnvironment                      : False
+
+AgentUpdateMaintenanceWindow               : 
+AgentUpdateMaintenanceWindowTimeZone       : 
+AgentUpdateType                            : 
+AgentUpdateUseSessionHostLocalTime         : 
+AppAttachPackageReference                  : {}
+ApplicationGroupReference                  : {/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/GeneralPurpose-AppGroup}
+CloudPcResource                            : False
+CustomRdpProperty                          : audiomode:i:0;videoplaybackmode:i:1;redirectclipboard:i:1;redirectprinters:i:0;devicestoredirect:s:*;redirectcomports:i:1;redirectsmartcards:i:1;enablecredsspsupport:i:1;redirectwebauthn:i:1;use multimon:i:1;enablerdsaadauth:i:1;usbdevicestoredirect:s:*;drivestoredirect:s:;audiocapturemode:i:1;autoreconnection enabled:i:1;
+Description                                : General Purpose AVD
+Etag                                       : 
+FriendlyName                               : Standard AVD v.0.1
+HostPoolType                               : Pooled
+Id                                         : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GeneralPurpose
+IdentityPrincipalId                        : 
+IdentityTenantId                           : 
+IdentityType                               : 
+Kind                                       : 
+LoadBalancerType                           : DepthFirst
+Location                                   : eastus
+ManagedBy                                  : 
+MaxSessionLimit                            : 15
+Name                                       : GeneralPurpose
+ObjectId                                   : 38644458-5240-4cbb-be38-c70a4b6a0895
+PersonalDesktopAssignmentType              : 
+PlanName                                   : 
+PlanProduct                                : 
+PlanPromotionCode                          : 
+PlanPublisher                              : 
+PlanVersion                                : 
+PreferredAppGroupType                      : Desktop
+PrivateEndpointConnection                  : {}
+PublicNetworkAccess                        : Enabled
+RegistrationInfoExpirationTime             : 
+RegistrationInfoRegistrationTokenOperation : 
+RegistrationInfoToken                      : 
+ResourceGroupName                          : RG_US_AVDPOOL
+Ring                                       : 1
+SkuCapacity                                : 
+SkuFamily                                  : 
+SkuName                                    : 
+SkuSize                                    : 
+SkuTier                                    : 
+SsoClientId                                : 
+SsoClientSecretKeyVaultPath                : 
+SsoSecretType                              : 
+SsoadfsAuthority                           : 
+StartVMOnConnect                           : True
+SystemDataCreatedAt                        : 11/20/2024 3:26:58 PM
+SystemDataCreatedBy                        : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType                    : Application
+SystemDataLastModifiedAt                   : 1/28/2026 1:06:50 AM
+SystemDataLastModifiedBy                   : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType               : Application
+Tag                                        : {
+                                               "Owner": "Ameer Abdur-Razzaaq",
+                                               "Product": "Internal IT",
+                                               "NMW_MONITORING_WORKSPACE_ID": "6881dcf5-a226-446e-a97b-7295cc0d0fb8/rg_us_nme/nmw-app-law-a2spbcm4zyvis"
+                                             }
+Type                                       : Microsoft.DesktopVirtualization/hostpools
+VMTemplate                                 : 
+ValidationEnvironment                      : False
+
+AgentUpdateMaintenanceWindow               : {{
+                                               "hour": 8,
+                                               "dayOfWeek": "Sunday"
+                                             }}
+AgentUpdateMaintenanceWindowTimeZone       : Eastern Standard Time
+AgentUpdateType                            : Scheduled
+AgentUpdateUseSessionHostLocalTime         : False
+AppAttachPackageReference                  : {}
+ApplicationGroupReference                  : {/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/GPUACC-AppGroup}
+CloudPcResource                            : False
+CustomRdpProperty                          : drivestoredirect:s:;audiomode:i:0;videoplaybackmode:i:1;redirectclipboard:i:1;redirectprinters:i:1;devicestoredirect:s:*;redirectcomports:i:1;redirectsmartcards:i:1;usbdevicestoredirect:s:;enablecredsspsupport:i:1;redirectwebauthn:i:1;use multimon:i:1;enablerdsaadauth:i:1;desktopscalefactor:i:125;autoreconnection enabled:i:1;bandwidthautodetect:i:1;networkautodetect:i:1;audiocapturemode:i:1;encode redirected video capture:i:1;redirected video capture encoding quality:i:1;camerastoredirect:s:*;dynamic resolution:i:1;
+Description                                : GPUACC
+Etag                                       : 
+FriendlyName                               : Studio Architects + Interiors | Design Apps
+HostPoolType                               : Pooled
+Id                                         : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GPUACC
+IdentityPrincipalId                        : 
+IdentityTenantId                           : 
+IdentityType                               : 
+Kind                                       : 
+LoadBalancerType                           : BreadthFirst
+Location                                   : eastus
+ManagedBy                                  : 
+MaxSessionLimit                            : 1
+Name                                       : GPUACC
+ObjectId                                   : faacd3b4-5e32-4341-b05a-63896fabf17f
+PersonalDesktopAssignmentType              : 
+PlanName                                   : 
+PlanProduct                                : 
+PlanPromotionCode                          : 
+PlanPublisher                              : 
+PlanVersion                                : 
+PreferredAppGroupType                      : Desktop
+PrivateEndpointConnection                  : {}
+PublicNetworkAccess                        : Enabled
+RegistrationInfoExpirationTime             : 
+RegistrationInfoRegistrationTokenOperation : 
+RegistrationInfoToken                      : 
+ResourceGroupName                          : RG_US_AVDPOOL
+Ring                                       : 1
+SkuCapacity                                : 
+SkuFamily                                  : 
+SkuName                                    : 
+SkuSize                                    : 
+SkuTier                                    : 
+SsoClientId                                : 
+SsoClientSecretKeyVaultPath                : 
+SsoSecretType                              : 
+SsoadfsAuthority                           : 
+StartVMOnConnect                           : True
+SystemDataCreatedAt                        : 10/1/2024 5:32:50 PM
+SystemDataCreatedBy                        : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType                    : Application
+SystemDataLastModifiedAt                   : 2/6/2025 2:23:45 PM
+SystemDataLastModifiedBy                   : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType               : Application
+Tag                                        : {
+                                               "Owner": "Ameer Abdur-Razzaaq",
+                                               "Product": "Internal IT",
+                                               "NMW_MONITORING_WORKSPACE_ID": "6881dcf5-a226-446e-a97b-7295cc0d0fb8/rg_us_nme/nmw-app-law-a2spbcm4zyvis"
+                                             }
+Type                                       : Microsoft.DesktopVirtualization/hostpools
+VMTemplate                                 : {"domain":"ennead.com","galleryImageOffer":null,"galleryImagePublisher":null,"galleryImageSKU":null,"imageType":"CustomImage","customImageId":"/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourceGroups/RG_US_AVDPOOL/providers/Microsoft.Compute/images/GPU1TB06122024-image","namePrefix":"GPUPD","osDiskType":"Premium_LRS","vmSize":{"id":"Standard_NV6ads_A10_v5","cores":6,"ram":55,"rdmaEnabled":false,"supportsMemoryPreservingMaintenance":false},"galleryItemId":null,"hibernate":false,"diskSizeGB":0,"securityType":"Standard","secureBoot":false,"vTPM":false,"vmInfrastructureType":"Cloud","virtualProcessorCount":null,"memoryGB":null,"maximumMemoryGB":null,"minimumMemoryGB":null,"dynamicMemoryConfig":false}
+ValidationEnvironment                      : False
+
+AgentUpdateMaintenanceWindow               : 
+AgentUpdateMaintenanceWindowTimeZone       : 
+AgentUpdateType                            : 
+AgentUpdateUseSessionHostLocalTime         : 
+AppAttachPackageReference                  : {/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/InfrastructureTeam/msixpackages/ennead.com.BluebeamRevu20.3_20.3.30.0_x64__jswtpkddt34q4}
+ApplicationGroupReference                  : {/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/InfrastructureTeam-AppGroup, /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/RemoteDesktop}
+CloudPcResource                            : False
+CustomRdpProperty                          : drivestoredirect:s:;audiomode:i:0;videoplaybackmode:i:1;redirectclipboard:i:1;redirectprinters:i:1;devicestoredirect:s:*;redirectcomports:i:1;redirectsmartcards:i:1;usbdevicestoredirect:s:;enablecredsspsupport:i:1;redirectwebauthn:i:1;use multimon:i:1;enablerdsaadauth:i:1;autoreconnection enabled:i:1;bandwidthautodetect:i:1;networkautodetect:i:1;audiocapturemode:i:1;encode redirected video capture:i:1;redirected video capture encoding quality:i:1;camerastoredirect:s:*;dynamic resolution:i:1;desktopscalefactor:i:125;redirectlocation:i:1;keyboardhook:i:3;smart sizing:i:1;
+Description                                : IT and Remote Apps
+Etag                                       : 
+FriendlyName                               : IT and Remote Apps
+HostPoolType                               : Pooled
+Id                                         : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/InfrastructureTeam
+IdentityPrincipalId                        : 
+IdentityTenantId                           : 
+IdentityType                               : 
+Kind                                       : 
+LoadBalancerType                           : DepthFirst
+Location                                   : eastus
+ManagedBy                                  : 
+MaxSessionLimit                            : 10
+Name                                       : InfrastructureTeam
+ObjectId                                   : 66d980d0-66a1-4d27-8de0-51509e0d489f
+PersonalDesktopAssignmentType              : 
+PlanName                                   : 
+PlanProduct                                : 
+PlanPromotionCode                          : 
+PlanPublisher                              : 
+PlanVersion                                : 
+PreferredAppGroupType                      : RailApplications
+PrivateEndpointConnection                  : {}
+PublicNetworkAccess                        : Enabled
+RegistrationInfoExpirationTime             : 
+RegistrationInfoRegistrationTokenOperation : 
+RegistrationInfoToken                      : 
+ResourceGroupName                          : RG_US_AVDPOOL
+Ring                                       : 0
+SkuCapacity                                : 
+SkuFamily                                  : 
+SkuName                                    : 
+SkuSize                                    : 
+SkuTier                                    : 
+SsoClientId                                : 
+SsoClientSecretKeyVaultPath                : 
+SsoSecretType                              : 
+SsoadfsAuthority                           : 
+StartVMOnConnect                           : True
+SystemDataCreatedAt                        : 6/9/2024 10:27:12 AM
+SystemDataCreatedBy                        : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType                    : Application
+SystemDataLastModifiedAt                   : 1/14/2026 8:28:35 PM
+SystemDataLastModifiedBy                   : adm_scott@ennead.com
+SystemDataLastModifiedByType               : User
+Tag                                        : {
+                                               "Owner": "Scott Eno",
+                                               "Product": "Internal IT",
+                                               "NMW_MONITORING_WORKSPACE_ID": "6881dcf5-a226-446e-a97b-7295cc0d0fb8/RG_US_NME/nmw-app-law-a2spbcm4zyvis"
+                                             }
+Type                                       : Microsoft.DesktopVirtualization/hostpools
+VMTemplate                                 : 
+ValidationEnvironment                      : True
+
+AgentUpdateMaintenanceWindow               : {{
+                                               "hour": 8,
+                                               "dayOfWeek": "Sunday"
+                                             }}
+AgentUpdateMaintenanceWindowTimeZone       : Eastern Standard Time
+AgentUpdateType                            : Scheduled
+AgentUpdateUseSessionHostLocalTime         : False
+AppAttachPackageReference                  : {}
+ApplicationGroupReference                  : {/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/MarketingPoolBus-AppGroup}
+CloudPcResource                            : False
+CustomRdpProperty                          : drivestoredirect:s:;audiomode:i:0;videoplaybackmode:i:1;redirectclipboard:i:1;redirectprinters:i:1;devicestoredirect:s:*;redirectcomports:i:1;redirectsmartcards:i:1;usbdevicestoredirect:s:;enablecredsspsupport:i:1;redirectwebauthn:i:1;use multimon:i:1;enablerdsaadauth:i:1;desktopscalefactor:i:125;audiocapturemode:i:1;autoreconnection enabled:i:1;bandwidthautodetect:i:1;networkautodetect:i:1;encode redirected video capture:i:1;redirected video capture encoding quality:i:1;camerastoredirect:s:*;dynamic resolution:i:1;
+Description                                : Marketing host pool
+Etag                                       : 
+FriendlyName                               : Marketing AVD v.0.1
+HostPoolType                               : Pooled
+Id                                         : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/MarketingPoolBus
+IdentityPrincipalId                        : 
+IdentityTenantId                           : 
+IdentityType                               : 
+Kind                                       : 
+LoadBalancerType                           : DepthFirst
+Location                                   : eastus
+ManagedBy                                  : 
+MaxSessionLimit                            : 10
+Name                                       : MarketingPoolBus
+ObjectId                                   : c6c85a97-ec2f-4528-8c05-37c935862226
+PersonalDesktopAssignmentType              : 
+PlanName                                   : 
+PlanProduct                                : 
+PlanPromotionCode                          : 
+PlanPublisher                              : 
+PlanVersion                                : 
+PreferredAppGroupType                      : Desktop
+PrivateEndpointConnection                  : {}
+PublicNetworkAccess                        : Enabled
+RegistrationInfoExpirationTime             : 
+RegistrationInfoRegistrationTokenOperation : 
+RegistrationInfoToken                      : 
+ResourceGroupName                          : RG_US_AVDPOOL
+Ring                                       : 1
+SkuCapacity                                : 
+SkuFamily                                  : 
+SkuName                                    : 
+SkuSize                                    : 
+SkuTier                                    : 
+SsoClientId                                : 
+SsoClientSecretKeyVaultPath                : 
+SsoSecretType                              : 
+SsoadfsAuthority                           : 
+StartVMOnConnect                           : True
+SystemDataCreatedAt                        : 11/7/2024 7:04:59 PM
+SystemDataCreatedBy                        : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType                    : Application
+SystemDataLastModifiedAt                   : 10/31/2025 6:18:24 PM
+SystemDataLastModifiedBy                   : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType               : Application
+Tag                                        : {
+                                               "Owner": "Ameer Abdur-Razzaaq",
+                                               "Product": "Internal IT",
+                                               "NMW_MONITORING_WORKSPACE_ID": "6881dcf5-a226-446e-a97b-7295cc0d0fb8/RG_US_NME/nmw-app-law-a2spbcm4zyvis"
+                                             }
+Type                                       : Microsoft.DesktopVirtualization/hostpools
+VMTemplate                                 : 
+ValidationEnvironment                      : False
+
+AgentUpdateMaintenanceWindow               : 
+AgentUpdateMaintenanceWindowTimeZone       : 
+AgentUpdateType                            : 
+AgentUpdateUseSessionHostLocalTime         : 
+AppAttachPackageReference                  : {}
+ApplicationGroupReference                  : {/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/AdminRemoteApps, /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/EnneadRemoteApps}
+CloudPcResource                            : False
+CustomRdpProperty                          : drivestoredirect:s:;usbdevicestoredirect:s:*;redirectclipboard:i:1;redirectprinters:i:0;audiomode:i:0;videoplaybackmode:i:1;devicestoredirect:s:*;redirectcomports:i:1;redirectsmartcards:i:1;enablecredsspsupport:i:1;redirectwebauthn:i:1;use multimon:i:1;enablerdsaadauth:i:1;audiocapturemode:i:1;autoreconnection enabled:i:1;targetisaadjoined:i:1;
+Description                                : Remote applications published to users.  No desktop experience.
+Etag                                       : 
+FriendlyName                               : RemoteApps
+HostPoolType                               : Pooled
+Id                                         : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/RemoteApps
+IdentityPrincipalId                        : 
+IdentityTenantId                           : 
+IdentityType                               : 
+Kind                                       : 
+LoadBalancerType                           : DepthFirst
+Location                                   : eastus
+ManagedBy                                  : 
+MaxSessionLimit                            : 20
+Name                                       : RemoteApps
+ObjectId                                   : b82c3fa2-bab0-40a4-a48e-f316113ed414
+PersonalDesktopAssignmentType              : 
+PlanName                                   : 
+PlanProduct                                : 
+PlanPromotionCode                          : 
+PlanPublisher                              : 
+PlanVersion                                : 
+PreferredAppGroupType                      : RailApplications
+PrivateEndpointConnection                  : {}
+PublicNetworkAccess                        : Enabled
+RegistrationInfoExpirationTime             : 
+RegistrationInfoRegistrationTokenOperation : 
+RegistrationInfoToken                      : 
+ResourceGroupName                          : RG_US_AVDPOOL
+Ring                                       : 1
+SkuCapacity                                : 
+SkuFamily                                  : 
+SkuName                                    : 
+SkuSize                                    : 
+SkuTier                                    : 
+SsoClientId                                : 
+SsoClientSecretKeyVaultPath                : 
+SsoSecretType                              : 
+SsoadfsAuthority                           : 
+StartVMOnConnect                           : True
+SystemDataCreatedAt                        : 1/15/2026 7:29:14 PM
+SystemDataCreatedBy                        : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType                    : Application
+SystemDataLastModifiedAt                   : 1/27/2026 11:51:11 PM
+SystemDataLastModifiedBy                   : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType               : Application
+Tag                                        : {
+                                               "Owner": "Scott Eno",
+                                               "Product": "AVD",
+                                               "cm-resource-parent": "/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/rg_us_avdpool/providers/microsoft.desktopvirtualization/hostpools/remoteapps",
+                                               "NMW_MONITORING_WORKSPACE_ID": "6881dcf5-a226-446e-a97b-7295cc0d0fb8/RG_US_NME/nmw-app-law-a2spbcm4zyvis"
+                                             }
+Type                                       : Microsoft.DesktopVirtualization/hostpools
+VMTemplate                                 : 
+ValidationEnvironment                      : False
+

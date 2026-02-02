@@ -1,0 +1,223 @@
+
+ApplicationGroupReference    : {/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/Development-AppGroup}
+CloudPcResource              : False
+Description                  : For testing new gold images and applications
+Etag                         : 
+FriendlyName                 : Development
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/Development
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : 
+Location                     : eastus
+ManagedBy                    : 
+Name                         : Development
+ObjectId                     : d6598ea1-cc1f-4f98-b0a6-d4c665c95f5e
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+PrivateEndpointConnection    : {}
+PublicNetworkAccess          : Enabled
+ResourceGroupName            : RG_US_AVDPOOL
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 12/11/2024 6:26:23 PM
+SystemDataCreatedBy          : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType      : Application
+SystemDataLastModifiedAt     : 12/23/2025 7:44:52 PM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Tag                          : {
+                               }
+Type                         : Microsoft.DesktopVirtualization/workspaces
+
+ApplicationGroupReference    : {/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/GeneralPurpose-AppGroup}
+CloudPcResource              : False
+Description                  : 
+Etag                         : 
+FriendlyName                 : Office + Project Management
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/GeneralPurpose
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : 
+Location                     : eastus
+ManagedBy                    : 
+Name                         : GeneralPurpose
+ObjectId                     : de4bd740-f5f4-4321-bfda-978329d12767
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+PrivateEndpointConnection    : {}
+PublicNetworkAccess          : Enabled
+ResourceGroupName            : RG_US_AVDPOOL
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 11/20/2024 2:46:30 PM
+SystemDataCreatedBy          : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType      : Application
+SystemDataLastModifiedAt     : 2/6/2025 2:38:35 PM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Tag                          : {
+                               }
+Type                         : Microsoft.DesktopVirtualization/workspaces
+
+ApplicationGroupReference    : {/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/GPUACC-AppGroup}
+CloudPcResource              : False
+Description                  : 
+Etag                         : 
+FriendlyName                 : Studio Design Applications
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/GPUPersonalPool
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : 
+Location                     : eastus
+ManagedBy                    : 
+Name                         : GPUPersonalPool
+ObjectId                     : 6d4d1c47-cbf5-4da8-961c-24e43eae3ee5
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+PrivateEndpointConnection    : {}
+PublicNetworkAccess          : Enabled
+ResourceGroupName            : RG_US_AVDPOOL
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 10/1/2024 5:23:58 PM
+SystemDataCreatedBy          : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType      : Application
+SystemDataLastModifiedAt     : 8/27/2025 6:56:39 PM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Tag                          : {
+                               }
+Type                         : Microsoft.DesktopVirtualization/workspaces
+
+ApplicationGroupReference    : {/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/InfrastructureTeam-AppGroup, /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/RemoteDesktop}
+CloudPcResource              : False
+Description                  : IT and Remote Apps host pool
+Etag                         : 
+FriendlyName                 : IT and Remote Apps
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/InfrastructureTeam
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : 
+Location                     : eastus
+ManagedBy                    : 
+Name                         : InfrastructureTeam
+ObjectId                     : e576bd98-bf46-4eef-8ed7-fa77d464e4eb
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+PrivateEndpointConnection    : {}
+PublicNetworkAccess          : Enabled
+ResourceGroupName            : RG_US_AVDPOOL
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 6/9/2024 10:19:11 AM
+SystemDataCreatedBy          : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType      : Application
+SystemDataLastModifiedAt     : 1/15/2026 5:02:08 PM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Tag                          : {
+                               }
+Type                         : Microsoft.DesktopVirtualization/workspaces
+
+ApplicationGroupReference    : {/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/MarketingPoolBus-AppGroup}
+CloudPcResource              : False
+Description                  : Marketing Team AVD
+Etag                         : 
+FriendlyName                 : Marketing
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/MarketingTeam
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : 
+Location                     : eastus
+ManagedBy                    : 
+Name                         : MarketingTeam
+ObjectId                     : 3217f1d7-0f0e-407f-9ee1-cf1e9c628336
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+PrivateEndpointConnection    : {}
+PublicNetworkAccess          : Enabled
+ResourceGroupName            : RG_US_AVDPOOL
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 11/7/2024 6:41:43 AM
+SystemDataCreatedBy          : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType      : Application
+SystemDataLastModifiedAt     : 2/6/2025 2:37:42 PM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Tag                          : {
+                               }
+Type                         : Microsoft.DesktopVirtualization/workspaces
+
+ApplicationGroupReference    : {/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/AdminRemoteApps, /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/EnneadRemoteApps}
+CloudPcResource              : False
+Description                  : Workspace for hosts used for remote application publishing
+Etag                         : 
+FriendlyName                 : Published remote apps
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/RemoteApps
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : 
+Location                     : eastus
+ManagedBy                    : 
+Name                         : RemoteApps
+ObjectId                     : 74afafd5-97b7-4260-83ca-0415d45218ec
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+PrivateEndpointConnection    : {}
+PublicNetworkAccess          : Enabled
+ResourceGroupName            : RG_US_AVDPOOL
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 1/15/2026 6:01:54 PM
+SystemDataCreatedBy          : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType      : Application
+SystemDataLastModifiedAt     : 1/15/2026 9:55:47 PM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Tag                          : {
+                               }
+Type                         : Microsoft.DesktopVirtualization/workspaces
+

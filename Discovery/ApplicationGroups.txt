@@ -1,0 +1,323 @@
+
+ApplicationGroupType         : RemoteApp
+CloudPcResource              : False
+Description                  : 
+Etag                         : 
+FriendlyName                 : Administrator Applications
+HostPoolArmPath              : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/RemoteApps
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/AdminRemoteApps
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : RemoteApp
+Location                     : eastus
+ManagedBy                    : 
+Name                         : AdminRemoteApps
+ObjectId                     : b8280660-598d-4c82-9288-561c35758730
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+ResourceGroupName            : RG_US_AVDPOOL
+ShowInFeed                   : 
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 1/15/2026 9:55:46 PM
+SystemDataCreatedBy          : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType      : Application
+SystemDataLastModifiedAt     : 1/27/2026 11:16:38 PM
+SystemDataLastModifiedBy     : adm_scott@ennead.com
+SystemDataLastModifiedByType : User
+Tag                          : {
+                                 "Owner": "Scott Eno",
+                                 "Product": "AVD",
+                                 "cm-resource-parent": "/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/rg_us_avdpool/providers/microsoft.desktopvirtualization/hostpools/remoteapps"
+                               }
+Type                         : Microsoft.DesktopVirtualization/applicationgroups
+WorkspaceArmPath             : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/RemoteApps
+
+ApplicationGroupType         : Desktop
+CloudPcResource              : False
+Description                  : 
+Etag                         : 
+FriendlyName                 : 
+HostPoolArmPath              : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/Development
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/Development-AppGroup
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : Desktop
+Location                     : eastus
+ManagedBy                    : 
+Name                         : Development-AppGroup
+ObjectId                     : 6d8a39c0-0557-45b6-b293-6d86e0309bb4
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+ResourceGroupName            : RG_US_AVDPOOL
+ShowInFeed                   : 
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 12/11/2024 7:09:05 PM
+SystemDataCreatedBy          : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType      : Application
+SystemDataLastModifiedAt     : 12/11/2024 7:09:05 PM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Tag                          : {
+                                 "Owner": "Ameer Abdur-Razzaaq",
+                                 "Product": "Internal IT"
+                               }
+Type                         : Microsoft.DesktopVirtualization/applicationgroups
+WorkspaceArmPath             : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/Development
+
+ApplicationGroupType         : RemoteApp
+CloudPcResource              : False
+Description                  : Individual applications published for users via AVD.  No desktop.
+Etag                         : 
+FriendlyName                 : Published Apps
+HostPoolArmPath              : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/RemoteApps
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/EnneadRemoteApps
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : RemoteApp
+Location                     : eastus
+ManagedBy                    : 
+Name                         : EnneadRemoteApps
+ObjectId                     : 4cfdd119-17dc-467f-bb22-9780000dcde4
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+ResourceGroupName            : RG_US_AVDPOOL
+ShowInFeed                   : 
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 1/15/2026 7:29:15 PM
+SystemDataCreatedBy          : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType      : Application
+SystemDataLastModifiedAt     : 1/15/2026 9:24:41 PM
+SystemDataLastModifiedBy     : adm_scott@ennead.com
+SystemDataLastModifiedByType : User
+Tag                          : {
+                                 "Owner": "Scott Eno",
+                                 "Product": "AVD",
+                                 "cm-resource-parent": "/subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/rg_us_avdpool/providers/microsoft.desktopvirtualization/hostpools/remoteapps"
+                               }
+Type                         : Microsoft.DesktopVirtualization/applicationgroups
+WorkspaceArmPath             : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/RemoteApps
+
+ApplicationGroupType         : Desktop
+CloudPcResource              : False
+Description                  : 
+Etag                         : 
+FriendlyName                 : 
+HostPoolArmPath              : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GeneralPurpose
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/GeneralPurpose-AppGroup
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : Desktop
+Location                     : eastus
+ManagedBy                    : 
+Name                         : GeneralPurpose-AppGroup
+ObjectId                     : 3fe2d4d2-0b37-4e79-9e52-141014eec74b
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+ResourceGroupName            : RG_US_AVDPOOL
+ShowInFeed                   : 
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 11/20/2024 3:26:58 PM
+SystemDataCreatedBy          : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType      : Application
+SystemDataLastModifiedAt     : 11/20/2024 3:26:58 PM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Tag                          : {
+                                 "Owner": "Ameer Abdur-Razzaaq",
+                                 "Product": "Internal IT"
+                               }
+Type                         : Microsoft.DesktopVirtualization/applicationgroups
+WorkspaceArmPath             : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/GeneralPurpose
+
+ApplicationGroupType         : Desktop
+CloudPcResource              : False
+Description                  : 
+Etag                         : 
+FriendlyName                 : 
+HostPoolArmPath              : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/GPUACC
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/GPUACC-AppGroup
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : Desktop
+Location                     : eastus
+ManagedBy                    : 
+Name                         : GPUACC-AppGroup
+ObjectId                     : afcb5570-4e53-4e8e-b409-0eda3e5b21c0
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+ResourceGroupName            : RG_US_AVDPOOL
+ShowInFeed                   : 
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 10/1/2024 5:32:51 PM
+SystemDataCreatedBy          : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType      : Application
+SystemDataLastModifiedAt     : 10/1/2024 5:32:51 PM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Tag                          : {
+                                 "Owner": "Ameer Abdur-Razzaaq",
+                                 "Product": "Internal IT"
+                               }
+Type                         : Microsoft.DesktopVirtualization/applicationgroups
+WorkspaceArmPath             : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/GPUPersonalPool
+
+ApplicationGroupType         : Desktop
+CloudPcResource              : False
+Description                  : 
+Etag                         : 
+FriendlyName                 : 
+HostPoolArmPath              : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/InfrastructureTeam
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/InfrastructureTeam-AppGroup
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : Desktop
+Location                     : eastus
+ManagedBy                    : 
+Name                         : InfrastructureTeam-AppGroup
+ObjectId                     : 1543324b-bcf3-423b-8099-19ea9da308a8
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+ResourceGroupName            : RG_US_AVDPOOL
+ShowInFeed                   : 
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 6/9/2024 10:27:13 AM
+SystemDataCreatedBy          : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType      : Application
+SystemDataLastModifiedAt     : 11/12/2025 7:36:29 PM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Tag                          : {
+                                 "Owner": "Scott Eno",
+                                 "Product": "Internal IT"
+                               }
+Type                         : Microsoft.DesktopVirtualization/applicationgroups
+WorkspaceArmPath             : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/InfrastructureTeam
+
+ApplicationGroupType         : Desktop
+CloudPcResource              : False
+Description                  : 
+Etag                         : 
+FriendlyName                 : 
+HostPoolArmPath              : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/MarketingPoolBus
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/MarketingPoolBus-AppGroup
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : Desktop
+Location                     : eastus
+ManagedBy                    : 
+Name                         : MarketingPoolBus-AppGroup
+ObjectId                     : 712601eb-7854-4e84-951d-6032c2ecca84
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+ResourceGroupName            : RG_US_AVDPOOL
+ShowInFeed                   : 
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 11/7/2024 7:05:00 PM
+SystemDataCreatedBy          : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataCreatedByType      : Application
+SystemDataLastModifiedAt     : 11/7/2024 7:05:00 PM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Tag                          : {
+                                 "Owner": "Ameer Abdur-Razzaaq",
+                                 "Product": "Internal IT"
+                               }
+Type                         : Microsoft.DesktopVirtualization/applicationgroups
+WorkspaceArmPath             : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/MarketingTeam
+
+ApplicationGroupType         : RemoteApp
+CloudPcResource              : False
+Description                  : 
+Etag                         : 
+FriendlyName                 : Remote Desktop
+HostPoolArmPath              : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/hostpools/InfrastructureTeam
+Id                           : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/applicationgroups/RemoteDesktop
+IdentityPrincipalId          : 
+IdentityTenantId             : 
+IdentityType                 : 
+Kind                         : RemoteApp
+Location                     : eastus
+ManagedBy                    : 
+Name                         : RemoteDesktop
+ObjectId                     : 5d61758d-5c6d-4108-8554-3b340f6349fe
+PlanName                     : 
+PlanProduct                  : 
+PlanPromotionCode            : 
+PlanPublisher                : 
+PlanVersion                  : 
+ResourceGroupName            : RG_US_AVDPOOL
+ShowInFeed                   : 
+SkuCapacity                  : 
+SkuFamily                    : 
+SkuName                      : 
+SkuSize                      : 
+SkuTier                      : 
+SystemDataCreatedAt          : 2/26/2025 5:10:51 PM
+SystemDataCreatedBy          : adm_ameer@ennead.com
+SystemDataCreatedByType      : User
+SystemDataLastModifiedAt     : 11/12/2025 7:36:29 PM
+SystemDataLastModifiedBy     : 2c94e4c8-d516-4169-b684-83e323edb362
+SystemDataLastModifiedByType : Application
+Tag                          : {
+                                 "Owner": "Scott Eno",
+                                 "Product": "Internal IT"
+                               }
+Type                         : Microsoft.DesktopVirtualization/applicationgroups
+WorkspaceArmPath             : /subscriptions/6881dcf5-a226-446e-a97b-7295cc0d0fb8/resourcegroups/RG_US_AVDPOOL/providers/Microsoft.DesktopVirtualization/workspaces/InfrastructureTeam
+

@@ -11,12 +11,13 @@ Development repo for adding Azure Virtual Desktop (AVD) reporting functions to t
 | GitHub repo | `https://github.com/cse-gh/AsBuiltReport.Microsoft.Azure.AVD` |
 | Upstream | `https://github.com/AsBuiltReport/AsBuiltReport.Microsoft.Azure` |
 | PR target | `dev` branch |
+| Current version | **0.1.0** — single consolidated function, validated against live environment |
 | PowerShell | 7+ required (`pwsh`, not `powershell.exe`) |
 | Related project brief | `C:\Users\scott.eno\Infrastructure\storage\Reporting\AsBuiltReport\TODO-AVD-Module.md` |
 
 ## Parent Module Reference
 
-The installed module at `C:\Program Files\WindowsPowerShell\Modules\AsBuiltReport.Microsoft.Azure\0.1.8.2\` is the reference implementation. Key files:
+The installed module at `C:\Program Files\WindowsPowerShell\Modules\AsBuiltReport.Microsoft.Azure\0.2.0\` is the reference implementation. Key files:
 
 - `Src/Public/Invoke-AsBuiltReport.Microsoft.Azure.ps1` — orchestrator that calls all `Get-AbrAz*` functions
 - `Src/Private/Get-AbrAzAvailabilitySet.ps1` — simplest example (74 lines, InfoLevel 1 only)
@@ -99,6 +100,24 @@ Write-PScriboMessage "msg"                                  # Console logging (n
 - `List = $true` — vertical key-value detail table (use `ColumnWidths = 40, 60`)
 - `Columns` — which properties to display
 - `ColumnWidths` — percentage allocation (must sum to 100)
+
+## Version History
+
+### v0.1.0 (2026-02-02) — Initial working version
+
+Single consolidated function `Get-AbrAzDesktopVirtualization` covering all AVD resource types:
+- **Host Pools**: Summary table (InfoLevel 1) + detailed per-pool sections with session hosts (InfoLevel 2+)
+- **Application Groups**: Table with host pool and workspace associations
+- **Workspaces**: Table with app group references
+- **Scaling Plans**: Table with host pool associations (none in current environment)
+- **Health checks**: Session host status (Warning if not Available), drain mode (Warning if disabled)
+- **Tag handling**: Uses `.Keys` and `.AdditionalProperties[]` for AVD's `TrackedResourceTags` type (not standard hashtable)
+
+**Integration into parent module requires:**
+1. Copy `Src/Private/Get-AbrAzDesktopVirtualization.ps1` → module's `Src/Private/`
+2. Add `"DesktopVirtualization" = "Get-AbrAzDesktopVirtualization"` to `$SectionFunctionMap` in orchestrator
+3. Add `"DesktopVirtualization"` to `$DefaultSectionOrder` in orchestrator
+4. Add `DesktopVirtualization` entries to module's built-in JSON: `SectionOrder`, `InfoLevel`, `HealthCheck`
 
 ## AVD Functions to Implement
 
