@@ -1,0 +1,154 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project Overview
+
+Development repo for adding Azure Virtual Desktop (AVD) reporting functions to the existing `AsBuiltReport.Microsoft.Azure` module. This is not a standalone module — the code developed here will be contributed upstream via PR to `AsBuiltReport/AsBuiltReport.Microsoft.Azure` (dev branch).
+
+| Item | Detail |
+|------|--------|
+| GitHub repo | `https://github.com/cse-gh/AsBuiltReport.Microsoft.Azure.AVD` |
+| Upstream | `https://github.com/AsBuiltReport/AsBuiltReport.Microsoft.Azure` |
+| PR target | `dev` branch |
+| PowerShell | 7+ required (`pwsh`, not `powershell.exe`) |
+| Related project brief | `C:\Users\scott.eno\Infrastructure\storage\Reporting\AsBuiltReport\TODO-AVD-Module.md` |
+
+## Parent Module Reference
+
+The installed module at `C:\Program Files\WindowsPowerShell\Modules\AsBuiltReport.Microsoft.Azure\0.1.8.2\` is the reference implementation. Key files:
+
+- `Src/Public/Invoke-AsBuiltReport.Microsoft.Azure.ps1` — orchestrator that calls all `Get-AbrAz*` functions
+- `Src/Private/Get-AbrAzAvailabilitySet.ps1` — simplest example (74 lines, InfoLevel 1 only)
+- `Src/Private/Get-AbrAzVirtualMachine.ps1` — complex example (nested resources, InfoLevel 2+, health checks, SKU caching)
+- `Src/Private/Get-AbrAzKeyVault.ps1` — good multi-level InfoLevel example
+- `AsBuiltReport.Microsoft.Azure.json` — config schema (InfoLevel, HealthCheck, Options, Filter)
+- `AsBuiltReport.Microsoft.Azure.Style.ps1` — PScribo styles (headings, health check colors, table formatting)
+
+## Get-AbrAz* Function Pattern
+
+Every resource function follows this structure:
+
+```powershell
+function Get-AbrAzResourceType {
+    [CmdletBinding()]
+    param ()
+
+    begin {
+        Write-PScriboMessage "ResourceType InfoLevel set at $($InfoLevel.ResourceType)."
+    }
+
+    process {
+        Try {
+            if ($InfoLevel.ResourceType -gt 0) {
+                $resources = Get-AzSomeResource | Sort-Object Name
+                if ($resources) {
+                    Write-PscriboMessage "Collecting Azure ResourceType information."
+                    Section -Style Heading4 'Resource Type' {
+                        # Build [Ordered]@{} PSCustomObject array
+                        # Render via Table @TableParams
+                        # For InfoLevel 2+: nested Section per resource with List=$true
+                    }
+                }
+            }
+        } Catch {
+            Write-PScriboMessage -IsWarning $($_.Exception.Message)
+        }
+    }
+
+    end {}
+}
+```
+
+**Critical rules:**
+- Check `$InfoLevel` before executing (0 = disabled)
+- No parameters — all context comes from global variables set by orchestrator
+- Never return values — render directly via PScribo (`Section`, `Paragraph`, `Table`, `BlankLine`)
+- Wrap in Try/Catch with `Write-PScriboMessage -IsWarning`
+- Use `[Ordered]@{}` for predictable column order in tables
+- Cache API calls when iterating (avoid throttling)
+
+## Global Variables Available
+
+Set by the orchestrator, accessible in all `Get-AbrAz*` functions:
+
+| Variable | Type | Purpose |
+|----------|------|---------|
+| `$InfoLevel` | Hashtable | Detail level per resource (0=off, 1=summary, 2=detailed, 3+=comprehensive) |
+| `$Options` | Hashtable | `ShowSectionInfo`, `ShowTags` |
+| `$Report` | Hashtable | `ShowTableCaptions` |
+| `$Healthcheck` | Hashtable | Boolean flags per resource type |
+| `$AzSubscription` | Object | Current subscription being processed |
+| `$AzLocationLookup` | Hashtable | Location code → display name |
+| `$AzSubscriptionLookup` | Hashtable | Subscription ID → name |
+
+## PScribo Framework Functions
+
+```powershell
+Section -Style Heading4 'Title' { ... }                    # Hierarchical sections
+Section -Style NOTOCHeading5 -ExcludeFromTOC 'Title' { }   # Detail sections (no TOC entry)
+Paragraph "text"                                            # Text block
+BlankLine                                                   # Spacing
+$data | Table @TableParams                                  # Render table
+$data | Set-Style -Style Warning -Property 'Status'         # Health check highlighting
+Write-PScriboMessage "msg"                                  # Console logging (not in report)
+```
+
+**Table configuration:**
+- `List = $false` — horizontal summary table
+- `List = $true` — vertical key-value detail table (use `ColumnWidths = 40, 60`)
+- `Columns` — which properties to display
+- `ColumnWidths` — percentage allocation (must sum to 100)
+
+## AVD Functions to Implement
+
+| Function | Az Cmdlets | Purpose |
+|----------|-----------|---------|
+| `Get-AbrAzHostPool` | `Get-AzWvdHostPool` | Host pool config, type, load balancing, max sessions |
+| `Get-AbrAzSessionHost` | `Get-AzWvdSessionHost` | Per-host status, health, drain mode, sessions |
+| `Get-AbrAzApplicationGroup` | `Get-AzWvdApplicationGroup`, `Get-AzWvdApplication` | App groups, type, assignments |
+| `Get-AbrAzWorkspace` | `Get-AzWvdWorkspace` | Workspace-to-app-group mappings |
+| `Get-AbrAzScalingPlan` | `Get-AzWvdScalingPlan` | Autoscale schedules |
+
+## Health Checks to Implement
+
+| Check | Condition | Style |
+|-------|-----------|-------|
+| Session Host Unavailable | Status != "Available" | Warning |
+| Session Host Drain Mode | AllowNewSession = false | Info |
+| Registration Token Expired | RegistrationInfo expired | Warning |
+| Host Pool at Capacity | Sessions >= MaxSessionLimit | Warning |
+| No Session Hosts | Host pool has 0 session hosts | Critical |
+
+## Test Environment
+
+- **Subscription:** Ennead Architects (`6881dcf5-a226-446e-a97b-7295cc0d0fb8`)
+- **AVD Resource Group:** `RG_US_AVDPOOL`
+- **Session Hosts:** ~48 VMs (GPU: GPUPD-*, GPUDEVAVD-*; General: DEVAVD-*, GENAVD-*)
+- **Management:** Nerdio Manager for Enterprise (RG_US_NME)
+- **Auth:** `Connect-AzAccount -UseDeviceAuthentication` (headless) or interactive MFA
+
+## Commands
+
+```powershell
+# Run PSScriptAnalyzer
+Invoke-ScriptAnalyzer -Path .\Src\ -Recurse -ReportSummary
+
+# Test module loads (after copying files to installed module path)
+Import-Module AsBuiltReport.Microsoft.Azure -Force
+
+# Generate test report
+$cred = Get-Credential
+New-AsBuiltReport -Report Microsoft.Azure -Target '8a6820ee-066e-4b8f-a6a5-67992142e92b' -Credential $cred -MFA -Format HTML -OutputFolderPath .\TestOutput
+
+# Enumerate AVD resources for discovery
+Get-AzWvdHostPool | Format-List *
+Get-AzWvdHostPool | ForEach-Object { Get-AzWvdSessionHost -ResourceGroupName $_.Id.Split('/')[4] -HostPoolName $_.Name }
+Get-AzWvdApplicationGroup | Format-List *
+Get-AzWvdWorkspace | Format-List *
+Get-AzWvdScalingPlan | Format-List *
+```
+
+## Module Installation Note
+
+Always install PowerShell modules with `-Scope AllUsers` to avoid OneDrive sync issues on this environment. `-Scope CurrentUser` installs to the OneDrive-backed user profile, causing significant delays.
