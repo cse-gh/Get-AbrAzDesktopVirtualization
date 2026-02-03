@@ -176,7 +176,7 @@ function Get-AbrAzDesktopVirtualization {
                                             Section -Style NOTOCHeading6 -ExcludeFromTOC 'Session Hosts' {
                                                 $SessionHostInfo = @()
                                                 foreach ($SH in $AzSessionHosts) {
-                                                    $ShName = $SH.Name.Split('/')[-1] -replace '\.ad\.ennead\.com$', ''
+                                                    $ShName = ($SH.Name.Split('/')[-1] -split '\.')[0]
                                                     $InObj = [Ordered]@{
                                                         'Name' = $ShName
                                                         'Status' = $SH.Status
@@ -219,7 +219,7 @@ function Get-AbrAzDesktopVirtualization {
                                                 if ($InfoLevel.DesktopVirtualization -ge 4) {
                                                     # Per-session-host detail sections
                                                     foreach ($SH in $AzSessionHosts) {
-                                                        $ShName = $SH.Name.Split('/')[-1] -replace '\.ad\.ennead\.com$', ''
+                                                        $ShName = ($SH.Name.Split('/')[-1] -split '\.')[0]
                                                         $ShDetail = [Ordered]@{
                                                             'Name' = $ShName
                                                             'Status' = $SH.Status
@@ -292,7 +292,7 @@ function Get-AbrAzDesktopVirtualization {
                                                     foreach ($US in $UserSessions) {
                                                         $SessionInfo += [PSCustomObject][Ordered]@{
                                                             'User' = if ($US.ActiveDirectoryUserName) { $US.ActiveDirectoryUserName } elseif ($US.UserPrincipalName) { $US.UserPrincipalName } else { '--' }
-                                                            'Session Host' = ($US.Name -split '/')[1] -replace '\.ad\.ennead\.com$', ''
+                                                            'Session Host' = (($US.Name -split '/')[1] -split '\.')[0]
                                                             'State' = if ($US.SessionState) { $US.SessionState } else { '--' }
                                                             'Application' = if ($US.ApplicationType) { $US.ApplicationType } else { '--' }
                                                             'Create Time' = if ($US.CreateTime) { $US.CreateTime.ToString('yyyy-MM-dd HH:mm') } else { '--' }
