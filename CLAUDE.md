@@ -8,7 +8,7 @@ Development repo for adding Azure Virtual Desktop (AVD) reporting functions to t
 
 | Item | Detail |
 |------|--------|
-| GitHub repo | `https://github.com/cse-gh/AsBuiltReport.Microsoft.Azure.AVD` |
+| GitHub repo | `https://github.com/cse-gh/Get-AbrAzDesktopVirtualization` |
 | Upstream | `https://github.com/AsBuiltReport/AsBuiltReport.Microsoft.Azure` |
 | PR target | `dev` branch |
 | Current version | **0.1.1** — InfoLevel 3/4 expansion, validated against live environment |
